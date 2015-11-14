@@ -1,94 +1,127 @@
-<!doctype html>
+<!DOCTYPE HTML>
+<!--
+	Fractal by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(.) styles/vendor.css -->
-    <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-  </head>
-  <body ng-app="appenzoApp">
-    <!--[if lte IE 8]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+	<head>
+		<title>App &amp; Zo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body id="top">
 
-    <!-- Add your site or application content here -->
+		<!-- Header -->
+			<header id="header">
+				<div class="content">
+					<h1><a href="#">App &amp; Zo</a></h1>
+					<p></p>
 
-    <div class="header">
-      <div class="navbar navbar-default" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
+				</div>
+				<div class="image phone"><div class="inner"><img src="images/rocket.png" alt="" /></div></div>
+			</header>
 
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+		<!-- One -->
+			<section id="one" class="wrapper style2 special">
+				<header class="major">
+					<h2>We zijn gelanceerd!</h2>
+				</header>
+				<div class="inner2">
+					<p>App &amp; zo is een project van Stad &amp; Esch om samen met een groepje leerlingen apps te gaan ontwikkelen. En dit doen als een echte startup. </p>
 
-          </div>
+	        <p>Elke vrijdagmiddag werken we aan ons project en elke twee weken geven we ook een presentatie over onze voortgang aan onze opdrachtgever.</p>
 
-          <div class="collapse navbar-collapse" id="js-navbar-collapse">
+	        <p>En wie is onze opdrachtgever/klant? Onze eerste klant is Stad &amp; Esch. We gaan een app ontwikkelen voor de Open Dag in januari!</p>
+				</div>
 
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/blog">Blog</a></li>
-              <!--<li><a ng-href="#/about">Over</a></li>-->
-              <!--<li><a ng-href="#/">Contact</a></li>-->
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+			</section>
 
-    <div class="container-fluid page">
-    <div ng-view=""></div>
-    </div>
+		<!-- Two -->
+			<section id="two" class="wrapper">
+				<div class="inner alt">
+					<section class="spotlight">
+						<div class="image"><img src="images/IMG_1817.jpg" alt="" /></div>
+						<div class="content">
+							<h3>Ideeën</h3>
+							<p>Alle ideeën voor de app op de muur gehangen!</p>
+						</div>
+					</section>
+					<section class="spotlight">
+						<div class="image"><img src="images/pic02.jpg" alt="" /></div>
+						<div class="content">
+							<h3>Ultrices nullam aliquam</h3>
+							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+						</div>
+					</section>
+					<section class="spotlight">
+						<div class="image"><img src="images/pic03.jpg" alt="" /></div>
+						<div class="content">
+							<h3>Aliquam sed magna</h3>
+							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+						</div>
+					</section>
 
-    <div class="footer">
-      <div class="container">
-        <p style="color : #fff">&copy; App &amp; Zo</p>
-      </div>
-    </div>
+				</div>
+			</section>
+
+		<!-- Three -->
+		<!--
+			<section id="three" class="wrapper style2 special">
+				<header class="major">
+					<h2>Magna leo sapien gravida</h2>
+					<p>Gravida at leo elementum elit fusce accumsan dui libero, quis vehicula<br />
+					lectus ultricies eu. In convallis amet leo sapien iaculis efficitur.</p>
+				</header>
+
+			</section>
+		-->
 
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-     <script>
-       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
-       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
-       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
-       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-       ga('create', 'UA-XXXXX-X');
-       ga('send', 'pageview');
-    </script>
+		<!-- Footer -->
+			<footer id="footer">
+				<!--
+				<ul class="icons">
+					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				</ul>-->
+				<p class="copyright">&copy; App &amp; Zo</p>
+			</footer>
 
-    <!-- build:js(.) scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="bower_components/angular-animate/angular-animate.js"></script>
-    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
-    <script src="bower_components/angular-resource/angular-resource.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-    <script src="bower_components/angular-touch/angular-touch.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
-        <!-- endbuild -->
-</body>
+			<!-- build:js(.) scripts/vendor.js -->
+			<!-- bower:js -->
+			<script src="bower_components/jquery/dist/jquery.js"></script>
+			<script src="bower_components/angular/angular.js"></script>
+			<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+			<script src="bower_components/angular-animate/angular-animate.js"></script>
+			<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+			<script src="bower_components/angular-resource/angular-resource.js"></script>
+			<script src="bower_components/angular-route/angular-route.js"></script>
+			<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+			<script src="bower_components/angular-touch/angular-touch.js"></script>
+			<!-- endbower -->
+			<!-- endbuild -->
+
+					<!-- build:js({.tmp,app}) scripts/scripts.js -->
+					<script src="scripts/app.js"></script>
+					<script src="scripts/controllers/main.js"></script>
+					<script src="scripts/controllers/about.js"></script>
+					<!-- endbuild -->
+
+
+	</body>
 </html>
